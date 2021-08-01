@@ -17,7 +17,7 @@ def run_sequence(seed=int):
         if val == 0:
             return
         if val == 1 and count > 0:  # base case
-            val_list.append(val)
+            # val_list.append(val)
             return
 
         elif val % 2 == 1:
